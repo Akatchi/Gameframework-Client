@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import models.ChallengeCell?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vBox" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox>
+            <children>
+                <Label text="Gametype: ">
+                    <font>
+                        <Font name="System Bold" size="10.0" />
+                    </font>
+                </Label>
+                <Label fx:id="gameType" text="GameType">
+                    <font>
+                        <Font name="System" size="10.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets top="1.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+        <HBox>
+            <children>
+                <Label text="Challenger: ">
+                    <font>
+                        <Font name="System Bold" size="10.0" />
+                    </font>
+                </Label>
+                <Label fx:id="challenger" text="Challenger">
+                    <font>
+                        <Font name="System" size="10.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets top="1.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+        <HBox>
+            <children>
+                <Label text="Opponent: ">
+                    <font>
+                        <Font name="System Bold" size="10.0" />
+                    </font>
+                </Label>
+                <Label fx:id="opponent" text="Opponent">
+                    <font>
+                        <Font name="System" size="10.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets top="1.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</VBox>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" minHeight="600.0" minWidth="1000.0" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+
+    <children>
+        <TextField fx:id="hostIP" alignment="CENTER" layoutX="396.0" layoutY="194.0" promptText="Host IP" text="127.0.0.1" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+        <TextField fx:id="port" alignment="CENTER" layoutX="396.0" layoutY="230.0" promptText="Port" text="8282" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+        <TextField fx:id="userName" alignment="CENTER" layoutX="396.0" layoutY="266.0" promptText="Username" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+        <Button fx:id="login" alignment="CENTER" layoutX="448.0" layoutY="304.0" mnemonicParsing="false" onAction="#handleLoginPressed" text="Login" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+    </children>
+
+</AnchorPane>
